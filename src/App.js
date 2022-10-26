@@ -2,11 +2,17 @@
 import './App.css';
 import logo from './logo.svg';
 import CartWidget from './Components/CartWidget';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <CartWidget/> 
+     
+      <Router>
+        <Navbar>  
+        </Navbar>
+      </Router>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
