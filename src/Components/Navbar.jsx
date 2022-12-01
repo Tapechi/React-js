@@ -6,7 +6,7 @@ import CartWidget from './CartWidget/CartWidget';
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-light">
+      <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
           <Link to="./">
             <Logo></Logo>
